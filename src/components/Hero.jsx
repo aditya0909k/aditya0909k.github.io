@@ -16,10 +16,10 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#D37194]'>Saniya</span>
+            Hi, I'm <span className='text-[#D37194]'>Aditya</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a student studying computer science at <strong>Georgia Tech</strong>. Nice to meet you :)
+            I'm a student studying computer science at <strong>UT Dallas</strong>. My interests lie broadly in deep learning and software engineering. Nice to meet you :)
           </p>
         </div>
       </div>

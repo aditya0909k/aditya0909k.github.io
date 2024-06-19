@@ -1,9 +1,9 @@
 {
-  "name": "personal-website",
+  "name": "aditya0909k.github.io",
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://saniya.dev",
+  "homepage": "https://aditya34.dev",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

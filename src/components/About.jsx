@@ -48,7 +48,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-Hello! I’m a passionate Computer Science student at the Georgia Institute of Technology, exploring the vast and exciting world of technology. My academic journey is currently centered around the cutting-edge fields of Artificial Intelligence and FinTech, where I am eager to deepen my knowledge and skills. I thrive on collaboration and am always on the lookout for innovative projects that challenge the status quo. 
+Hello! I’m a passionate Computer Science student at the UT Dallas, exploring the vast and exciting world of technology. My academic and professional journey is currently centered around the cutting-edge field of Artificial Intelligence, where I'm eager to deepen my knowledge and skills. I thrive on collaboration and am always on the lookout for innovative projects that challenge the status quo. 
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

@@ -43,7 +43,7 @@ const Navbar = () => {
           }}
         >
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Saniya Savla &nbsp;
+            Aditya Kulkarni &nbsp;
           </p>
         </Link>
 

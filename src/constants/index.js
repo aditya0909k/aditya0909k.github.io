@@ -24,6 +24,7 @@ import {
   resume,
   lymba,
   github,
+  codesignal
 } from "../assets";
 
 export const navLinks = [
@@ -58,9 +59,9 @@ const services = [
     link: "mailto:aditya.ak.0909@gmail.com",
   },
   {
-    title: "Resume",
-    icon: resume,
-    link: "https://drive.google.com/file/d/1MFdvGHIUVgF28yRipigLwQLeyrBNieYv/view?usp=sharing"
+    title: "CodeSignal",
+    icon: codesignal,
+    link: "https://app.codesignal.com/evaluation-result/zemEcYioaSYnweEzX?accessToken=TSPXeExnefLPqNiTd-ngZRS868iJREsneAnzEbpHo2"
   }
 ];
 
@@ -273,7 +274,7 @@ const projects = [
   {
     name: "ScratchCNN",
     description:
-      "Fully functional convolutional neural network from scratch, with convolution, relu, pooling, dense, and softmax. Trained on the MNIST handwriting dataset.",
+      "Fully functional convolutional neural network from scratch, with convolution, relu, pooling, dense, and softmax. Trained on MNIST.",
     tags: [
       {
         name: "Python",

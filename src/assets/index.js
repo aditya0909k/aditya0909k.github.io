@@ -18,6 +18,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import resume from "./resume.svg";
+import codesignal from "./codesignal.png"
 
 import fannie from "./company/fannie.png";
 import utd from "./company/utd.png";
@@ -47,4 +48,5 @@ export {
   utd,
   freight,
   lymba,
+  codesignal,
 };

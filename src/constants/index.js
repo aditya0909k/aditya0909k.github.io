@@ -18,11 +18,11 @@ import {
   git,
   figma,
   docker,
-  google,
-  honeywell,
-  gt,
+  fannie,
+  utd,
+  freight,
   resume,
-  vantage,
+  lymba,
   github,
 } from "../assets";
 
@@ -45,23 +45,23 @@ const services = [
   {
     title: "GitHub",
     icon: github,
-    link: "https://github.com/ssaniya-dev",
+    link: "https://github.com/aditya0909k",
   },
   {
     title: "LinkedIn",
     icon: linkedin,
-    link: "https://www.linkedin.com/in/saniya-savla/",
-  },
-  {
-    title: "Resume",
-    icon: resume,
-    link: "https://drive.google.com/file/d/1-obUDyotvCOmLJuTenWTJpyWsBkvq85T/view?usp=sharing",
+    link: "https://www.linkedin.com/in/aditya34/",
   },
   {
     title: "Email",
     icon: gmail,
-    link: "mailto:saniyavsavla@gmail.com",
+    link: "mailto:aditya.ak.0909@gmail.com",
   },
+  {
+    title: "Resume",
+    icon: resume,
+    link: "https://drive.google.com/file/d/1MFdvGHIUVgF28yRipigLwQLeyrBNieYv/view?usp=sharing"
+  }
 ];
 
 const technologies = [
@@ -117,51 +117,43 @@ const technologies = [
 
 const experiences = [
   {
-    title: "STEP Intern",
-    company_name: "Google",
-    icon: google,
-    iconBg: "#FFFFFF",
-    date: "May 2024 - Present",
-    points: [
-      "Incoming Intern for Summer 2024 on the Workspace AI team using C++ and Python.",
-    ],
-  },
-  {
     title: "Software Engineer Intern",
-    company_name: "Honeywell",
-    icon: honeywell,
+    company_name: "Fannie Mae",
+    icon: fannie,
     iconBg: "#FFFFFF",
-    date: "May 2023 - Aug 2023",
+    date: "June 2024 - August 2024",
     points: [
-      "Synchronized data by creating a TypeScript REST API to pull 33k+ assets from an Oracle table to local storage.",
-      "Streamlined airbase asset retrieval by 42% with Python large language models for text-to-SQL generation.",
-      "Facilitated the visualization of engine data through a paginated React table with an integrated export feature.",
-      "Rectified 10+ critical bugs in a React app, ensuring accurate defense equipment data display from MySQL.",
+      "Developing an integrated similiarity search solution for querying 700K+ documents using PyTorch models and Go.",
     ],
   },
   {
     title: "Undergraduate Researcher",
-    company_name: "Georgia Tech Financial Services Innovation Lab",
-    icon: gt,
+    company_name: "Computer Vision & Multimodal Computing Lab",
+    icon: utd,
     iconBg: "#FFFFFF",
-    date: "Jan 2023 - Present",
+    date: "January 2024 - May 2024",
     points: [
-      "Co-engineered a Python-based model to predict projected earnings for 500+ firms, achieving a precision rate of 71.43% with random forests and 66.98% using gradient boosting techniques.",
-      "Prepped XBRL 10-K, I/B/E/S, and CRSP data with Pandas by handling inconsistencies and removing outliers.",
-      "Revealed the top 10 earnings predictors by calculating summary statistics for factors in financial statements.",
+      "Constructed neural network architecture in PyTorch and tested improvements to TPAVI, a self-attention module in AVSBench.",
     ],
   },
   {
     title: "Software Engineer Intern",
-    company_name: "Vantage Risk",
-    icon: vantage,
+    company_name: "Uber Freight",
+    icon: freight,
     iconBg: "#FFFFFF",
-    date: "June 2022 - Aug 2022",
+    date: "August 2023 - December 2023",
     points: [
-      "Developed React Dashboard with a Python backend for API-driven license access across eight developer tools.",
-      "Reduced license tracking time by 55% by hosting the dashboard with Microsoft Azure and a PostgreSQL database.",
-      "Identified a security breach during a CTF event, discerning hacker activity and implementing countermeasures.",
-      "Strengthened a deal analysis application by encrypting 30+ secrets and optimizing for multiple virtual machines.",
+      "Contracted through Success In Cloud to optimize logistics processes for supply chain algorithms and NLP pipelines.",
+    ],
+  },
+  {
+    title: "Machine Learning Intern",
+    company_name: "Lymba",
+    icon: lymba,
+    iconBg: "#FFFFFF",
+    date: "December 2020 - April 2021",
+    points: [
+      "Helped improve Lymba's document processing deep learning models by adding over 500 annotations for various types of tasks.",
     ],
   },
 ];
@@ -195,130 +187,122 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Syntaxia Compiler",
+    name: "CometBites",
     description:
-      "A compiler for a custom language capable of handling arithmetic operations, loops, and conditionals with lexical analysis, semantic analysis, and more.",
+      "A mobile application built in JavaScript that connects home chefs in the Richardson area to college students hungry for a home-cooked meal.",
     tags: [
       {
-        name: "C++",
-        color: "blue-text-gradient",
+        name: "JavaScript",
+        color: "yellow-text-gradient",
       },
-      {
-        name: "C",
-        color: "green-text-gradient",
-      },
-      {
-        name: "x86",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: gmail,
-    source_code_link: "https://github.com/ssaniya-dev/Syntaxia",
-  }, 
-  {
-    name: "AllerGEN",
-    description:
-      "A React web app that leverages Tesseract OCR to analyze food labels and alert users to potential allergens with 72% accuracy, powered by a custom Flask REST API.",
-    tags: [
       {
         name: "React",
-        color: "blue-text-gradient",
+        color: "yellow-text-gradient",
       },
       {
-        name: "Python",
-        color: "green-text-gradient",
-      },
-      {
-        name: "TesseractOCR",
-        color: "pink-text-gradient",
+        name: "Firebase",
+        color: "yellow-text-gradient",
       },
     ],
     image: gmail,
-    source_code_link: "https://github.com/ssaniya-dev/allergen",
+    source_code_link: "https://github.com/aditya0909k",
   },
   {
-    name: "Dressify",
+    name: "GaragePi",
     description:
-      "A Java mobile app with image recognition to manage clothing inventory using MongoDB and TensorFlow for personalized styling suggestions.",
+      "Used a Raspberry Pi and a relay switch to automate my home's garage door. I also created a simple JavaScript mobile application to open/close the garage door.",
     tags: [
       {
-        name: "Java",
-        color: "blue-text-gradient",
+        name: "JavaScript",
+        color: "yellow-text-gradient",
       },
       {
-        name: "TensorFlow",
-        color: "green-text-gradient",
+        name: "Python",
+        color: "yellow-text-gradient",
       },
       {
-        name: "MongoDB",
-        color: "pink-text-gradient",
+        name: "Flask",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "React",
+        color: "yellow-text-gradient",
       },
     ],
     image: gmail,
-    source_code_link: "https://github.com/ssaniya-dev/Dressify",
+    source_code_link: "https://github.com/aditya0909k/RBP-Garage-Door-Opener",
   },
   {
-    name: "PandemicPal",
+    name: "HueKeeper",
     description:
-      "A chatbot that is aimed at assisting businesses during COVID-19. It automatically answers a user's question about a store by leverging natural language processing.",
+      "A Discord bot that allows users to store a Discord embedding of a color they pick, with the HEX code, RGB code, and a picture of the color itself.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "AWS",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: gmail,
+    source_code_link: "https://github.com/aditya0909k/Discord-Color-Bot",
+  },
+  {
+    name: "EcoVision",
+    description:
+      "Led a computer vision/object detection project with three other undergraduate students to detect pieces of litter in a simulated aquatic environment.",
     tags: [
       {
         name: "Python",
-        color: "blue-text-gradient",
+        color: "yellow-text-gradient",
       },
       {
         name: "PyTorch",
-        color: "green-text-gradient",
+        color: "yellow-text-gradient",
       },
       {
-        name: "AI/ML",
-        color: "pink-text-gradient",
+        name: "YOLOv7",
+        color: "yellow-text-gradient",
       },
     ],
     image: gmail,
-    source_code_link: "https://github.com/ssaniya-dev/ai-chatbot",
+    source_code_link: "https://github.com/aditya0909k/Marine-Litter-Detector",
+  }, 
+  {
+    name: "ScratchCNN",
+    description:
+      "Fully functional convolutional neural network from scratch, with convolution, relu, pooling, dense, and softmax. Trained on the MNIST handwriting dataset.",
+    tags: [
+      {
+        name: "Python",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "NumPy",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: gmail,
+    source_code_link: "https://github.com/aditya0909k/CNN-From-Scratch",
   },
   {
-    name: "CelestiaOS",
+    name: "RapidFilter",
     description:
-      "Built an operating system kernel with system calls for ELF programs, including preemptive scheduling, page cache, virtual memory, and a TLB.",
+      "Developed an GPU-accelerated image processing library with Gaussian smoothing, edge detection, image sharpening, etc. using convolution.",
     tags: [
       {
         name: "C++",
-        color: "blue-text-gradient",
+        color: "yellow-text-gradient",
       },
       {
-        name: "C",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Makefile",
-        color: "pink-text-gradient",
+        name: "CUDA",
+        color: "yellow-text-gradient",
       },
     ],
     image: gmail,
-    source_code_link: "https://github.com/ssaniya-dev/",
-  }, 
-  {
-    name: "TravelHaven",
-    description:
-      "A React-based travel application that recommends tourists attractions based on a set of parameters such as price point and rating.",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: gmail,
-    source_code_link: "https://github.com/ssaniya-dev/fbla-travelapp",
+    source_code_link: "https://github.com/aditya0909k/CUDA-Image-Processing",
   },
 ];
 

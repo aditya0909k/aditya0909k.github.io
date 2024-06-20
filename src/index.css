@@ -33,6 +33,16 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.purple-gradient {
+  background: #9766f2;
+  background: linear-gradient(-90deg, #9766f2 0%, rgba(60, 51, 80, 0) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #9766f2 0%,
+    rgba(60, 51, 80, 0) 100%
+  );
+}
+
 .violet-gradient {
   background: #D37194;
   background: linear-gradient(-90deg, #D37194 0%, rgba(60, 51, 80, 0) 100%);
@@ -41,6 +51,12 @@
     #ee4d88 0%,
     rgba(60, 51, 80, 0) 100%
   );
+}
+
+.white-gradient {
+  background: "#00cea8";
+  background: linear-gradient(90.13deg, #ffffff 1.9%, #ffffff 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #ffffff 1.9%, #ffffff 97.5%);
 }
 
 .green-pink-gradient {

@@ -19,10 +19,10 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import resume from "./resume.svg";
 
-import google from "./company/google.png";
-import gt from "./company/gt.png";
-import honeywell from "./company/honeywell.png";
-import vantage from "./company/vantage.png";
+import fannie from "./company/fannie.png";
+import utd from "./company/utd.png";
+import freight from "./company/freight.png";
+import lymba from "./company/lymba.png";
 
 export {
   resume,
@@ -43,8 +43,8 @@ export {
   redux,
   tailwind,
   typescript,
-  google,
-  gt,
-  honeywell,
-  vantage,
+  fannie,
+  utd,
+  freight,
+  lymba,
 };

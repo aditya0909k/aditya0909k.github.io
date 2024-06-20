@@ -10,13 +10,13 @@ const Hero = () => {
         className={`absolute inset-0 top-[250px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#ee4d89]' />
-          <div className='w-1 sm:h-80 h-40 violet-gradient' />
+          <div className='w-5 h-5 rounded-full bg-[#9766f2]' />
+          <div className='w-1 sm:h-80 h-40 purple-gradient' />
         </div>
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#D37194]'>Aditya</span>
+            Hi, I'm <span className='text-[#9766f2]'>Aditya</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I'm a student studying computer science at <strong>UT Dallas</strong>. My interests lie broadly in deep learning and software engineering. Nice to meet you :)

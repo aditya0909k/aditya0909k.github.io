@@ -11,18 +11,18 @@
     <div id="root"></div>
     
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            const titles = ["a4a", "ad3a", "adi2a", "adit1a", "aditya", "adit1a", "adi2a", "ad3a", "a4a"];
-            let index = 0;
+      // Define the sequence of titles
+      const titles = ['a4a', 'ad3a', 'adi2a', 'adit1a', 'aditya', 'adit1a', 'adi2a', 'ad3a', 'a4a'];
+      let index = 0; // Initialize the index
 
-            function updateTitle() {
-                document.title = titles[index];
-                index = (index + 1) % titles.length; // Loop back to start
-            }
+      // Function to change the title
+      function changeTitle() {
+        document.title = titles[index]; // Set the document's title
+        index = (index + 1) % titles.length; // Increment index and loop back if at the end
+      }
 
-            // Change title every second (1000 ms)
-            setInterval(updateTitle, 1000);
-        });
+      // Change the title every second (1000 milliseconds)
+      setInterval(changeTitle, 1000);
     </script>
   </body>
 </html>

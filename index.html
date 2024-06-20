@@ -8,22 +8,20 @@
     <link rel="stylesheet" href="/assets/index-4072feb7.css">
   </head>
   <body>
-    <h1 id="dynamic-header">a4a</h1>
     <div id="root"></div>
     
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-            const header = document.getElementById("dynamic-header");
-            const textSequence = ["a4a", "ad3a", "adi2a", "adit1a", "aditya", "adit1a", "adi2a", "ad3a", "a4a"];
+            const titles = ["a4a", "ad3a", "adi2a", "adit1a", "aditya", "adit1a", "adi2a", "ad3a", "a4a"];
             let index = 0;
 
-            function updateHeader() {
-                header.textContent = textSequence[index];
-                index = (index + 1) % textSequence.length; // Loop back to start
+            function updateTitle() {
+                document.title = titles[index];
+                index = (index + 1) % titles.length; // Loop back to start
             }
 
-            // Change header text every second (1000 ms)
-            setInterval(updateHeader, 1000);
+            // Change title every second (1000 ms)
+            setInterval(updateTitle, 1000);
         });
     </script>
   </body>
